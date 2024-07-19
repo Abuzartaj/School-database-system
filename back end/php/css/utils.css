@@ -1,0 +1,44 @@
+/**********************************************************
+  Utilities Classes Start
+**********************************************************/
+.white-text {
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-padding {
+    padding: 0 5rem 10rem 5rem;
+}
+
+.inner-padding {
+    padding-top: 7rem;
+    max-width: 450px;
+}
+
+.common-btn {
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    background-color: var(--purple);
+    color: #fff;
+    border: 2px solid var(--purple);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (hover:hover) {
+    .common-btn:hover {
+        background-color: transparent;
+        color: var(--purple);
+    }
+}
+
+
+/**********************************************************
+    Utilities Classes End 
+  **********************************************************/
